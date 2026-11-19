@@ -1,0 +1,14 @@
+# VM-Images, ISOs und Betriebsdaten gehoeren nicht ins Repository
+lab/iso/
+lab/images/
+lab/vms/
+*.iso
+*.vdi
+*.vmdk
+*.ova
+*.vbox*
+# Ergebnisse und Zugangsdaten
+rcc-check-*/
+*password*
+*passwort*
+*.log
